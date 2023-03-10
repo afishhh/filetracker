@@ -21,9 +21,9 @@ setup(
     install_requires=[
         'bsddb3==6.2.7',
         'flup6',
-        'gunicorn==19.9.0',
-        'gevent==1.3.1',
-        'greenlet==0.4.13',  # for compatibility with this version of gevent
+        'gunicorn',
+        'gevent',
+        'greenlet',  # for compatibility with this version of gevent
         'progressbar2',
         'requests',
         'six',
