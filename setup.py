@@ -19,7 +19,7 @@ setup(
     license='GPL',
     packages=find_packages(),
     install_requires=[
-        'bsddb3==6.2.7',
+        'bsddb3',
         'flup6',
         'gunicorn',
         'gevent',
